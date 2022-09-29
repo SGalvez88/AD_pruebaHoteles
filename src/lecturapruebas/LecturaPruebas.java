@@ -40,7 +40,7 @@ public class LecturaPruebas {
 
                 for (int j = 0; j < listaAlojamiento.getLength(); j++) {
 
-                    if (listaAlojamiento.item(j).getNodeType() == Node.ELEMENT_NODE) {
+//                    if (listaAlojamiento.item(j).getNodeType() == Node.ELEMENT_NODE) { no es necesario
 
                         if (listaAlojamiento.item(j).getNodeName().equals("id")) {
                             id = Integer.parseInt(listaAlojamiento.item(j).getTextContent());
@@ -54,7 +54,7 @@ public class LecturaPruebas {
                         } else if (listaAlojamiento.item(j).getNodeName().equals("costeNoche")) {
                             precioNoche = Float.parseFloat(listaAlojamiento.item(j).getTextContent());
                         }
-                    }
+//                    }
                 }
                 hotel = new Hotel(id, nombre, direccion, precioNoche);
                 hoteles.add(hotel);
