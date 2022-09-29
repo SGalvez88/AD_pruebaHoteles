@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<Hoteles>
+    <hotel>
+	<id>30</id>
+        <nombre>Hotel Stand</nombre>
+        <direccion>Calle Luna</direccion>
+        <costeNoche>200.45</costeNoche>
+    </hotel>
+    <hotel>
+	<id>33</id>
+        <nombre>Hotel Milenium</nombre>
+        <direccion>Calle Venus</direccion>
+        <costeNoche>300.55</costeNoche>
+    </hotel>
+</Hoteles>
+
